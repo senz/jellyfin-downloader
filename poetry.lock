@@ -449,17 +449,6 @@ editor = ">=1.6.0"
 readchar = ">=4.2.0"
 
 [[package]]
-name = "iso8601"
-version = "2.1.0"
-description = "Simple module to parse ISO 8601 dates"
-optional = false
-python-versions = ">=3.7,<4.0"
-files = [
-    {file = "iso8601-2.1.0-py3-none-any.whl", hash = "sha256:aac4145c4dcb66ad8b648a02830f5e2ff6c24af20f4f482689be402db2429242"},
-    {file = "iso8601-2.1.0.tar.gz", hash = "sha256:6b1d3829ee8921c4301998c909f7829fa9ed3cbdac0d3b16af2d743aed1ba8df"},
-]
-
-[[package]]
 name = "jellyfin-apiclient-python"
 version = "1.10.0"
 description = "Python API client for Jellyfin"
@@ -492,17 +481,14 @@ ansicon = {version = "*", markers = "platform_system == \"Windows\""}
 
 [[package]]
 name = "m3u8"
-version = "3.6.0"
+version = "6.0.0"
 description = "Python m3u8 parser"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 files = [
-    {file = "m3u8-3.6.0-py3-none-any.whl", hash = "sha256:18c2fc2e4e0906e3a114bc3747d5e73db71aadc72c5d2863a3538dd07c2367ab"},
-    {file = "m3u8-3.6.0.tar.gz", hash = "sha256:d7f17e357e63f90400ae9804bcd193b8935fcca4eb18659aa94f1d7af3b36451"},
+    {file = "m3u8-6.0.0-py3-none-any.whl", hash = "sha256:566d0748739c552dad10f8c87150078de6a0ec25071fa48e6968e96fc6dcba5d"},
+    {file = "m3u8-6.0.0.tar.gz", hash = "sha256:7ade990a1667d7a653bcaf9413b16c3eb5cd618982ff46aaff57fe6d9fa9c0fd"},
 ]
-
-[package.dependencies]
-iso8601 = "*"
 
 [[package]]
 name = "multidict"
@@ -990,4 +976,4 @@ propcache = ">=0.2.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "22be4528d0ee6990bd21abbcd546c4e297bea795fc10a32c2178ae8d1fbb961b"
+content-hash = "95e86801b0131c38e6d9f139e2361259778ca2c3c6fb9de5cdcf1eb421ebe0d7"
