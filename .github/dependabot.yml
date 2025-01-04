@@ -1,7 +1,7 @@
 ---
 version: 2
 updates:
-  - package-ecosystem: "devcontainer"
+  - package-ecosystem: "devcontainers"
     # Look for a `devcontainer.json` in the `root` directory
     directory: "/"
     schedule:
